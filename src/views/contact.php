@@ -101,6 +101,11 @@
                             class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
                     </div>
 
+                    <div class="">
+                        <input type="checkbox" name="rgpd" id="rgpd">
+                        <label for="rgpd" class="text-sm">J'accepte la <a href="#">politique de traitement des données personnelles</a> de CDA OTTO</label>
+                    </div>
+
                     <button type="submit"
                         class="w-full py-3 px-4 bg-gradient-to-r from-red-600 to-amber-600 text-white rounded-md hover:shadow-lg transition-shadow">
                         Envoyer le message

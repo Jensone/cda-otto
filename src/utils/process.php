@@ -30,9 +30,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $data['vehicles'] = $categorieVoitures[$data['vehicle_type']] ?? '';
     }
 
-    // var_dump($data);
-    // exit; // Alternative à die()
-
     // Préparation du mail
 
 
